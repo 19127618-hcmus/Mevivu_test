@@ -197,6 +197,7 @@ return [
         App\Admin\Providers\RepositoryServiceProvider::class,
         App\Admin\Providers\ServiceServiceProvider::class,
 
+        Yajra\DataTables\DataTablesServiceProvider::class,
     ],
 
     /*

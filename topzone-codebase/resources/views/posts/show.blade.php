@@ -16,7 +16,7 @@
 
 <body>
     @include('includes.navbar')
-    <div class="container mt-4">
+    <div class="container my-4">
         <div class="row">
             @if ($post->image)
             <div class="col-12 text-center">
@@ -24,7 +24,7 @@
             </div>
             @endif
             <h2 class="col-12 py-2 mt-2">{{ $post->title }}</h2>
-            <p class="col-12 py-2">{{ $post->content }}</p>
+            <p class="col-12 py-2">{!! $post->content !!}</p>
         </div>
 
     </div>

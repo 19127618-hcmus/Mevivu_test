@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e8b65f0b336516fc58d7bd2eeebaf08",
+    "content-hash": "fbf10ce10d7bc86ce43bade250a4dcde",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -208,23 +208,23 @@
         },
         {
             "name": "ckfinder/ckfinder-laravel-package",
-            "version": "v4.0.0",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckfinder/ckfinder-laravel-package.git",
-                "reference": "6dc8ca5533eb37c6768188ee14b4452ccebc1031"
+                "reference": "a09f5eccf2f3dfde9d3a2d2579f1b364de1f6562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckfinder/ckfinder-laravel-package/zipball/6dc8ca5533eb37c6768188ee14b4452ccebc1031",
-                "reference": "6dc8ca5533eb37c6768188ee14b4452ccebc1031",
+                "url": "https://api.github.com/repos/ckfinder/ckfinder-laravel-package/zipball/a09f5eccf2f3dfde9d3a2d2579f1b364de1f6562",
+                "reference": "a09f5eccf2f3dfde9d3a2d2579f1b364de1f6562",
                 "shasum": ""
             },
             "require": {
                 "ext-gd": "*",
                 "ext-json": "*",
                 "ext-zip": "*",
-                "laravel/framework": "^9.0",
+                "laravel/framework": "^9.0|^10.0",
                 "league/flysystem": "^3.0",
                 "league/flysystem-aws-s3-v3": "^3.0",
                 "league/flysystem-azure-blob-storage": "^3.0",
@@ -254,9 +254,9 @@
             "description": "CKFinder 3 package for Laravel",
             "support": {
                 "issues": "https://github.com/ckfinder/ckfinder-laravel-package/issues",
-                "source": "https://github.com/ckfinder/ckfinder-laravel-package/tree/v4.0.0"
+                "source": "https://github.com/ckfinder/ckfinder-laravel-package/tree/v4.0.2"
             },
-            "time": "2022-11-10T09:27:30+00:00"
+            "time": "2023-10-02T11:25:07+00:00"
         },
         {
             "name": "composer/semver",
@@ -7282,16 +7282,16 @@
         },
         {
             "name": "yajra/laravel-datatables-oracle",
-            "version": "v10.3.1",
+            "version": "v10.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yajra/laravel-datatables.git",
-                "reference": "dc699abd8f297ece464f3e3889cc6d4f07a82549"
+                "reference": "a11dc9cf5ec7f7dc68ad0d5959c5e7aec0af29a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/dc699abd8f297ece464f3e3889cc6d4f07a82549",
-                "reference": "dc699abd8f297ece464f3e3889cc6d4f07a82549",
+                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/a11dc9cf5ec7f7dc68ad0d5959c5e7aec0af29a5",
+                "reference": "a11dc9cf5ec7f7dc68ad0d5959c5e7aec0af29a5",
                 "shasum": ""
             },
             "require": {
@@ -7303,7 +7303,10 @@
                 "php": "^8.0.2"
             },
             "require-dev": {
-                "nunomaduro/larastan": "^2.4",
+                "algolia/algoliasearch-client-php": "^3.4",
+                "larastan/larastan": "^2.4",
+                "laravel/scout": "^10.5",
+                "meilisearch/meilisearch-php": "^1.4",
                 "orchestra/testbench": "^8",
                 "yajra/laravel-datatables-html": "^9.3.4|^10"
             },
@@ -7354,7 +7357,7 @@
             ],
             "support": {
                 "issues": "https://github.com/yajra/laravel-datatables/issues",
-                "source": "https://github.com/yajra/laravel-datatables/tree/v10.3.1"
+                "source": "https://github.com/yajra/laravel-datatables/tree/v10.11.4"
             },
             "funding": [
                 {
@@ -7362,7 +7365,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-20T06:45:10+00:00"
+            "time": "2024-02-28T05:00:23+00:00"
         }
     ],
     "packages-dev": [
